@@ -42,7 +42,7 @@
 `./src/pages` -- Arquivos `tsx` que descrevem componentes React que representam uma página acessável
 
 `./src/contexts` -- Arquivos `.tsx` arquivo responsável por armazenar informação global que pode ser compartilhada em algum outro componente
-`./src/styles` -- Arquivos `.ts e css` arquivos responsǽveis pela estilização do projeto
+`./src/styles` -- Arquivos `.ts e css` arquivos responsáveis pela estilização do projeto
 
 ## :hammer: Ferramentas utilizadas
 
