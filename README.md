@@ -20,7 +20,7 @@
 8. A informação referente a pontos deve vir do backend
 9. A informação de que o usuario recebeu os pontos, vem processada do backend
 
-## :clipboard: Iniciando a aplicação React.Js
+## :clipboard: Iniciando a aplicação Next.Js
 
 1. Clone o repositório com `https://github.com/rodrigodiasf1984/teste-pizza.git`
 2. Abra um terminal e entre na pasta `cd teste-pizza`
