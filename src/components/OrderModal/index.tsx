@@ -26,7 +26,11 @@ const OrderModal: React.FC<ModalProps> = ({ closeModal }) => {
   return (
     <Overlay>
       <Container>
-        <header>Pedido 1</header>
+        <h1>Pedido</h1>
+        <header>1</header>
+        <p>Massa: {dought.title}</p>
+        <p>Tamanho: {size.title}</p>
+        <p>Recheio: {filling.title}</p>
         <strong>Concluído</strong>
         {points > 0 ? (
           <p>

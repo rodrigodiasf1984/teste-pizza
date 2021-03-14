@@ -23,13 +23,19 @@ export const Container = styled.div`
   text-align: center;
   position: relative;
 
+  h1 {
+    font-size: 5.75rem;
+    font-weight: 600;
+    color: #d1411e;
+  }
+
   header {
     font-size: 5.75rem;
     font-weight: 600;
     color: #d1411e;
     background: url('assets/icons/levelup.svg') no-repeat center;
     background-size: contain;
-    padding-bottom: 8rem;
+    padding-bottom: 4rem;
   }
 
   strong {
