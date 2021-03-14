@@ -1,0 +1,114 @@
+{
+  "sizes": [
+    {
+      "id": 1,
+      "title": "Gigante",
+      "size": 45,
+      "slices": 16,
+      "price": 30,
+      "recommendation": true
+    },
+    {
+      "id": 2,
+      "title": "Família ",
+      "size": 40,
+      "slices": 12,
+      "price": 25,
+      "recommendation": false
+    },
+    {
+      "id": 3,
+      "title": "Grande ",
+      "size": 35,
+      "slices": 10,
+      "price": 20,
+      "recommendation": false
+    },
+    {
+      "id": 4,
+      "title": "Média ",
+      "size": 30,
+      "slices": 8,
+      "price": 15,
+      "recommendation": false
+    },
+    {
+      "id": 5,
+      "title": "Pequena ",
+      "size": 25,
+      "slices": 6,
+      "price": 10,
+      "recommendation": false
+    }
+  ],
+  "pastas": [
+    {
+      "id": 1,
+      "title": "Massa Nova-iorquina",
+      "description": "Frequentemente vendida em fatias grandes e largas, a pizza ao estilo de Nova York tem uma massa mais grossa e é levemente crocante por fora. Dessa forma, são consumidas sem talheres. É bastante comum que as fatias sejam dobradas, facilitando o consumo por parte dos clientes. Normalmente são assadas em temperaturas mais baixas, em fornos a gás.",
+      "price": 28,
+      "recommendation": true
+    },
+    {
+      "id": 2,
+      "title": "Massa Siciliana",
+      "description": "A pizza siciliana é conhecida por sua massa grossa em forma de retângulo, geralmente com mais de um centímetro de espessura. A saber, pode ser feita em qualquer formato de assadeira untada com azeite, o que a deixa bem crocante no fundo.  Se você gosta da pizza tradicional da Sicília, a farinha de rosca fica por cima dos ingredientes. Além disso, ainda existe a opção de ralar um queijo para finalizar o perfil de sabor. Curiosidade: a pizza com massa estilo siciliana não usa muçarela porque o leite de vaca não está disponível na ilha.",
+      "price": 26,
+      "recommendation": false
+    },
+    {
+      "id": 3,
+      "title": "Massa Napolitana",
+      "description": "O modo napolitano de preparo é considerado um Patrimônio Cultural Imaterial da Humanidade pela Unesco. Acima de tudo,  a massa napolitana deve atender a um conjunto muito específico. Seu sabor e textura únicos, precisam ser assados em um forno a lenha com cúpula. Além disso,  a massa deve ser amassada à mão, com no máximo 35 centímetros de diâmetro e no máximo um terço de centímetro de espessura. Os estilos clássicos incluem a Margherita e a Marinara. E devido ao sabor e textura é a opção perfeita para quem quer saborear uma pizza italiana autêntica.",
+      "price": 24,
+      "recommendation": false
+    }
+  ],
+  "fillings": [
+    {
+      "id": 1,
+      "title": "Margherita",
+      "description": "o recheio dessa pizza é feito com molho de tomate, mussarela de búfala, manjericão, queijo parmesão ralado e azeite. É uma pizza margherita bem tradicional e saborosa que você pode preparar e servir para seus amigos!",
+      "price": 35,
+      "recommendation": true
+    },
+    {
+      "id": 2,
+      "title": "Portuguesa",
+      "description": "o recheio dessa pizza é feito com chouriço ou calabresa, tomates, muçarela, cebolas e azeitonas pretas. Você só precisa picar os ingredientes e depois espalhá-los pela massa da pizza.",
+      "price": 35,
+      "recommendation": false
+    },
+    {
+      "id": 3,
+      "title": "Tropical",
+      "description": "os ingredientes para rechear a pizza tropical são: muçarela, camarão, bacon e abacaxi. Em uma única pizza é possível sentir o sabor salgado, doce e azedo.",
+      "price": 35,
+      "recommendation": false
+    },
+    {
+      "id": 4,
+      "title": "Frango",
+      "description": "para rechear essa pizza você vai precisar de um frango desfiado. Além da carne, a sugestão é acrescentar molho de tomate, queijo muçarela, milho verde, pimentão, azeitonas e orégano.",
+      "price": 35,
+      "recommendation": false
+    },
+    {
+      "id": 5,
+      "title": "Napolitana",
+      "description": "a pizza napolitana é uma ótima opção para quem gosta de sabores fortes. O recheio é feito com anchovas, azeitonas pretas, alcaparras e muçarela.",
+      "price": 35,
+      "recommendation": false
+    },
+    {
+      "id": 6,
+      "title": "4 Queijos",
+      "description": "os queijos escolhidos para rechear essa pizza foram: muçarela, gorgonzola, requeijão e parmesão.",
+      "price": 35,
+      "recommendation": false
+    }
+  ],
+  "points":{
+      "pointsQt":2
+    }
+}
