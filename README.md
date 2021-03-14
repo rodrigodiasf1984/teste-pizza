@@ -1,34 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h3 align="center">
+  Feito com carinho
+</h3>
 
-## Getting Started
+## :camera: Demonstração
+<h1 align="center"> <img alt="resultado" src=""/>
+</h1>
 
-First, run the development server:
+## :rocket: Sobre o desafio
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. Criar um formulário com passos em telas separadas em que se é possivel montar uma pizza.
+2. O formulario deve oferecer uma recomendação da pizza do dia 
+3. Informar que o `usuário recebeu pontos de benefícios`.
+4. O formulário deve ser mostrado em passos distintos ( uma tela por passo: passo de escolher massa, passo de escolher tamanho, passo de escolher recheio... )
+5. O formulário deve ter pelo menos 3 passos
+6. Dados referente as pizzas devem vir de um backend
+7. A recomendação deve vir de um backend
+8. A informação referente a pontos deve vir do backend
+9. A informação de que o usuario recebeu os pontos, vem processada do backend
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## :clipboard: Iniciando a aplicação React.Js
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. Clone o repositório com `https://github.com/rodrigodiasf1984/teste-pizza.git`
+2. Abra um terminal e entre na pasta `cd teste-pizza`
+3. Instale todas as dependencias com o comando `yarn`
+4. Digite `yarn fake-api` para iniciar a api
+5. Digite `yarn dev` para iniciar o projeto
+6. Abra uma nova aba do navegador a url http://localhost:3333/
+7. Abra uma nova aba do navegador a url http://localhost:3000/
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## :clipboard: Algumas informações de arquitetura de arquivos
+`./src` -- Arquivos `.tsx` pasta onde estão organizado as subpastas do mesmo
 
-## Learn More
+`./src/assets` -- Arquivos que não são códigos subdivididos de acordo com sua funcionalidade
 
-To learn more about Next.js, take a look at the following resources:
+`./src/components` -- Arquivos `.tsx` de componentes React reutilizáveis em mais de um componente pai.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+`./src/pages` -- Arquivos `tsx` que descrevem componentes React que representam uma página acessável
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+`./src/contexts` -- Arquivos `.tsx` arquivo responsável por armazenar informação global que pode ser compartilhada em algum outro componente
+`./src/styles` -- Arquivos `.ts e css` arquivos responsǽveis pela estilização do projeto
 
-## Deploy on Vercel
+## :hammer: Ferramentas utilizadas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 📄 **Type script** - Projeto criado com typescript 
+- ⚛️ **Styled Components** - Biblioteca Javascript pra estilizar componentes
+- 📄 **Axios** - Biblioteca Javascript para fazer requisições a API
+- 📄 **TailwindCss** Framework de css mais utilizado atualmente
+- 📄 **Tailwind-styled-components** Bibioteca para usar o TailwindCss junto com o styled-components
+- 📄 **Commitlint e Commitzen** Bibiotecas utilizada para padronizar os commits 
+- 📄 **Next.Js** É um framework para React
+- 📄 **React-toastify** É uma lib para exibir mensagens toast
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+</h1>
+
