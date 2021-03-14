@@ -11,10 +11,15 @@ import {
   ContainerBottomParagraph,
   ContentContainerBottom,
 } from '@/styles/pages/home';
+import SEO from '@/components/SEO';
 
 const Home: React.FC = () => {
+  const description =
+    'Criar pizza personalizadas, você poderá escolher o tipo de massa, o tamanho e o recheio.';
+  const link = 'https://pizza-marker.com.br';
   return (
     <>
+      <SEO title="Pizza Maker" description={description} link={link} />
       <Main>
         <BG style={{ backgroundPosition: '95% center' }}>
           <ContainerTop>
