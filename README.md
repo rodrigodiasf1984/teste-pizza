@@ -3,7 +3,9 @@
 </h3>
 
 ## :camera: Demonstração
-<h1 align="center"> <img alt="resultado" src=""/>
+<h1 align="center">   
+  <img alt="resultado LightHouse" src="https://github.com/rodrigodiasf1984/teste-pizza/blob/development/public/assets/demostration/teste-pizza.gif"/>
+  <img alt="resultado" src="https://github.com/rodrigodiasf1984/teste-pizza/blob/development/public/assets/demostration/lighthouse-teste-pizza.webp"/>
 </h1>
 
 ## :rocket: Sobre o desafio
@@ -25,8 +27,9 @@
 3. Instale todas as dependencias com o comando `yarn`
 4. Digite `yarn fake-api` para iniciar a api
 5. Digite `yarn dev` para iniciar o projeto
-6. Abra uma nova aba do navegador a url http://localhost:3333/
-7. Abra uma nova aba do navegador a url http://localhost:3000/
+6. Para a versão optimizada para produção digite `yarn bluid` e `yarn start`
+7. Abra uma nova aba do navegador a url http://localhost:3333/
+8. Abra uma nova aba do navegador a url http://localhost:3000/
 
 
 ## :clipboard: Algumas informações de arquitetura de arquivos
